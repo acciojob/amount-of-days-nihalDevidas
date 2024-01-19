@@ -29,7 +29,7 @@ function daysOfAYear(year){
 	}
 }
 
-const year = prompt();  
-alert(daysOfAYear(year)); 
+// const year = prompt();  
+// alert(daysOfAYear(year)); 
 
 
