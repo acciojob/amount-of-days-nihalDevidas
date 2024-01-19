@@ -21,7 +21,7 @@ function leapYear(year){
 }
 
 function daysOfAYear(year){
-	if(leapYear(year)){
+	if(leapYear(parseInt(year))){
 		return "366";
 	}
 	else{
@@ -29,7 +29,7 @@ function daysOfAYear(year){
 	}
 }
 
-let y = parseInt(prompt()); 
-alert(daysOfAYear(y));
+const year = prompt();  
+alert(daysOfAYear(year)); 
 
 
