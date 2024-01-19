@@ -22,14 +22,14 @@ function leapYear(year){
 
 function daysOfAYear(year){
 	if(leapYear(year)){
-		return 366;
+		return "366";
 	}
 	else{
-		return 365;
+		return "365";
 	}
 }
 
-let y = parseInt(prompt().trim()); 
+let y = parseInt(prompt()); 
 alert(daysOfAYear(y));
 
 
